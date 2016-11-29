@@ -1,0 +1,18 @@
+1.2-2
+Suppose we are comparing the implementations of insertion sort and merge sort on the same machine. For inputs of size n, insertion sort runs in 8n^2 steps, while merge sort runs in 64n lg(n) steps. For which values of n does insertion sort beat merge sort?
+Insertion sort beats merge sort when the number of steps insertion sort takes is less then the number of steps merge sort takes.
+It follows that insertion sort beats merge sort when 8n^2 < 64n lg(n).
+
+8n^2 < 64n lg(n)
+n^2 < 8n lg(n)
+n < 8 lg(n)
+
+n = 1: 1 < 0; false
+n = 2: 2 < 8; true
+n = 8: 8 < 24; true
+n = 32: 32 < 40; true
+... trial and error...
+n = 43: 43 < 8 lg(43); true
+n = 44: 44 < 8 lg(44); false
+
+Insertion sort beats merge sort for inputs of size 2 <= n <= 43.

@@ -1,0 +1,3 @@
+1.2-1
+Give an example of an application that requires algorithmic content at the application level, and discuss the function of the algorithms involved.
+Shazam is a music identification tool. Shazam listens to an audio stream and attempts to determine what song it is. Shazam probably uses some DSP algorithms, such as FFT. It also probably uses some type of specialized searching algorithm to search a large database of music. It probably also uses compression, specialized audio analysis algorithms, and comparison algorithms.

@@ -1,0 +1,5 @@
+1.1-1
+Give a real-world example that requires sorting or a real-world example that requires computing a convex hull.
+
+- Sorting: in a music application, songs listed in a table can be sorted by name, artist, album, time, add date, etc. This problem requires sorting.
+- Convex hull: when a machine learning algorithm has a dataset it is trying to find patterns in, it might be able to determine clusters and classify points based on which cluster each point is in. These clusters might be generated with a convex hull algorithm.

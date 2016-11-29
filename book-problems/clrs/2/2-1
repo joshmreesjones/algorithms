@@ -1,0 +1,12 @@
+2-1 Insertion sort on small arrays in merge sort
+Although merge sort runs in Ө(n lg(n)) worst-case time and insertion sort runs in Ө(n^2) worst-case time, the constant factors in insertion sort can make it faster in practice for small problem sizes on many machines. Thus, it makes sense to coarsen the leaves of the recursion by using insertion sort within merge sort when subproblems become sufficiently small. Consider a modification to merge sort in which n / k sublists of length k are sorted using insertion sort and then merged using the standard merging mechanism, where k is a value to be determined.
+
+a. Show that insertion sort can sort the n / k sublists, each of length k, in Ө(nk) worst-case time.
+
+In the worst case, each sublist is backwards. In this case, the outer loop of insertion sort is Ө(k) and the inner loop is Ө(k), so the insertion sort runs in Ө(k*k) time. n / k of these sublists are run, so the total runtime of sorting every sublist is Ө(n/k * k*k), which simplifies to Ө(nk).
+
+b. Show how to merge the sublists in Ө(n lg(n/k)) worst-case time.
+
+c. Given that the modified algorithm runs in Ө(nk + n lg(n / k)) worst-case time, what is the largest value of k as a function of n for which the modified algorithm has the same running time as standard merge sort, in terms of Ө-notation?
+
+d. How should we choose k in practice?

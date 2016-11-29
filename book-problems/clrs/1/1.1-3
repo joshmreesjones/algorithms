@@ -1,0 +1,5 @@
+1.1-3
+Select a data structure that you have seen previously, and discuss its strengths and limitations.
+Linked list - a series of nodes linked to each other (forwards or backwards) where each node contains a data value.
+- Strengths: adding and removing data is faster, including resizing
+- Limitations: finding data is slower

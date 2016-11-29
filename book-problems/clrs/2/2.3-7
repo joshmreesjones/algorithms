@@ -1,0 +1,6 @@
+2.3-7
+Describe a Ө(n lg(n))-time algorithm that, given a set S of n integers and another integer x, determines whether or not there exist two elements in S whose sum is exactly x.
+
+First, sort the array using a merge sort (Θ(n lg(n))). Then, loop through the list. Use a binary search at each iteration to look for a number that is equal to x - i, where x is the target sum and i is the ith number. If such a number n is found, then n + i = x, and we have found two elements whose sum is exactly S.
+
+We performed a merge sort (Ө(n lg(n))) and then ran a binary search (Ө(lg(n))) inside a loop over all elements in the input array (Ө(n)). Our runtime is therefore Ө(n lg(n)) + Ө(n lg(n)).

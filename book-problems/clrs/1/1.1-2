@@ -1,0 +1,3 @@
+1.1-2
+Other than speed, what other measures of efficiency might one use in a real-world setting?
+Other measures of efficiency could be memory/storage usage, latency, power consumption, computing device usage (one processor vs. three), network usage (number of requests over network, bandwidth usage).

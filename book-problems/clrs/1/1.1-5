@@ -1,0 +1,4 @@
+1.1-5
+Come up with a real-world problem in which only the best solution will do. Then come up with one in which a solution that is "approximately" the best is good enough.
+Only the best will do - finding the next large prime is a problem in which any error renders the output irrelevant.
+Approximately the best is good enough - reproducing an audio signal from a series of samples is not perfectly accurate (I don't think it is, at least...), but it is close enough that humans won't hear any significant difference.

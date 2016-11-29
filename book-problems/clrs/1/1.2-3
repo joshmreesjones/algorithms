@@ -1,0 +1,11 @@
+1.2-3
+What is the smallest value of n such that an algorithm whose running time is 100n^2 runs faster than an algorithm whose running time is 2^n on the same machine?
+The 100n^2 algorithm runs faster than the 2^n algorithm for any size n such that 100n^2 < 2^n.
+
+100n^2 < 2^n
+n = 1: 100 < 2; false
+n = 8: 6400 < 256; false
+n = 14: 19600 < 16384; false
+n = 15: 22500 < 32768; true
+
+15 is the smallest value of n such that the 100n^2 algorithm runs faster than the 2^n algorithm.
