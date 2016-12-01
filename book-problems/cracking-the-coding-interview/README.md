@@ -6,6 +6,14 @@ Process:
 2. Design an algorithm.
 3. Write pseudocode.
 4. Write real code.
-5. See if we can make it faster.
+5. See if we can make it faster, smaller, or cleaner.
 6. Test code.
 7. Postmortem.
+
+Strategies:
+
+- Examplify
+- Pattern matching
+- Simplify and generalize
+- Base case and build
+- Data structure brainstorm
