@@ -17,3 +17,7 @@ Strategies:
 - Simplify and generalize
 - Base case and build
 - Data structure brainstorm
+
+Ideas:
+
+- If there is information in the problem (the array is sorted, the numbers don't exceed X, etc.), it's probably useful in some way.
